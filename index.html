@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>String</title>
+    <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+<h2>1. Строка. Строка как массив. Подсчет символов в строке. Подсчет количества определенных символов в строке. </h2>
+<h3>Строка</h3>
+<div id="str"></div>
+
+<h3>Строка как массив.</h3>
+<h4>Разбивка по символам</h4>
+<p>str.split('')</p>
+<div id="resSplitAll"></div>
+<h4>Разбивка по пробелам</h4>
+<p>str.split(' ')</p>
+<div id="resSplit"></div>
+<h4>Разбивка по предложениям</h4>
+<p>str.split('.')</p>
+<div id="resSplitDot"></div>
+<h3>Подсчет символов в строке - Длина строки</h3>
+<div id="strLength"></div>
+<p>str.length</p>
+<h3>Подсчет количества определенных символов в строке.</h3>
+<h4>вывод символов без учета регистра</h4>
+<p>str.match(/l/gi)</p>
+<div id="res"></div>
+<h4>Кол-во определенных символов без учета регистра</h4>
+<p>str.match(/l/gi).length</p>
+<div id="resLength"></div>
+<h4>вывод символов с учетом регистра</h4>
+<p>str.match(/l/g)</p>
+<div id="resAll"></div>
+<h4>Кол-во определенных символов c учетом регистра</h4>
+<p>str.match(/l/g).length</p>
+<div id="resAllLength"></div>
+
+<script src="js.js"></script>
+</body>
+</html>
