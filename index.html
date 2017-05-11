@@ -11,23 +11,25 @@
 <div id="str"></div>
 
 <h3>Строка как массив.</h3>
-<h4>Разбивка по символам</h4>
-<p>str.split('')</p>
-<div id="resSplitAll"></div>
-<h4>Разбивка по пробелам</h4>
-<p>str.split(' ')</p>
-<div id="resSplit"></div>
-<h4>Разбивка по предложениям</h4>
-<p>str.split('.')</p>
-<div id="resSplitDot"></div>
+<h4>Доступ к символам как к массиву.<br>
+    Чтобы получить символ charAt(позиция).
+    Первый символ имеет позицию 0</h4>
+<p>str.charAt(0)</p>
+<div id="strChartAt"></div>
+<h4>Или так</h4>
+<p>str[0]</p>
+<div id="strChartAt2"></div>
+
 <h3>Подсчет символов в строке - Длина строки</h3>
-<div id="strLength"></div>
 <p>str.length</p>
+<div id="strLength"></div>
+
 <h3>Подсчет количества определенных символов в строке.</h3>
-<h4>вывод символов без учета регистра</h4>
+<h4>флаг g - возвращает обычный массив из всех совпадений<br>
+    флаг i - не обращает внимание на регистр буквы</h4>
 <p>str.match(/l/gi)</p>
 <div id="res"></div>
-<h4>Кол-во определенных символов без учета регистра</h4>
+<h4>Кол-во определенных символов</h4>
 <p>str.match(/l/gi).length</p>
 <div id="resLength"></div>
 <h4>вывод символов с учетом регистра</h4>
@@ -37,6 +39,16 @@
 <p>str.match(/l/g).length</p>
 <div id="resAllLength"></div>
 
+
+<!--<h4>Разбивка по символам</h4>-->
+<!--<p>str.split('')</p>-->
+<!--<div id="resSplitAll"></div>-->
+<!--<h4>Разбивка по пробелам</h4>-->
+<!--<p>str.split(' ')</p>-->
+<!--<div id="resSplit"></div>-->
+<!--<h4>Разбивка по предложениям</h4>-->
+<!--<p>str.split('.')</p>-->
+<!--<div id="resSplitDot"></div>-->
 <script src="js.js"></script>
 </body>
 </html>
